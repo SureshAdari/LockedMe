@@ -63,7 +63,7 @@ public class LockedMe
 		File[] listOfFiles =new File(Path).listFiles();
 		
 		if(listOfFiles.length == 0)
-			System.out.println("No files exit in the directory");
+			System.out.println("No files exist in the directory");
 		else
 		{
 			for(File file: listOfFiles)
